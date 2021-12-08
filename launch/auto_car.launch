@@ -1,0 +1,9 @@
+<launch>
+<node name="controller" pkg="auto_car" type="controller">
+    <param name="pid_p" value="11.0" type="double" />
+    <param name="pid_i" value="0.0015" type="double" />
+    <param name="pid_d" value="0" type="double" />
+    <param name="target_v" value="5" type="double" />
+</node>
+<node name="planner" pkg="auto_car" type="planner" />
+</launch>

@@ -1,0 +1,7 @@
+<library path="libnodelet_auto_car">
+    <class name="nodelet_auto_car/Planner" type="autoCar::plan::Planner" base_class_type="nodelet::Nodelet">
+            <description>
+            A planner nodelet to publish trajtory message
+            </description>
+    </class>
+</library>
